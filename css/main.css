@@ -58,14 +58,14 @@ header .nav ul .active{
 .navMobileMenu ul {
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 50px;
     padding-left: 25px;
     padding-top: 35px;
 }
 
 .navMobileMenu ul li a {
     color: #fff;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 
