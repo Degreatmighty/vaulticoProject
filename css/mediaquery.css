@@ -115,6 +115,10 @@
     .logo img {
         width: 90px;
     }
+
+    .headerContainer{
+        padding-inline: 35px;
+    }
     
     header .nav {
         display: none;
