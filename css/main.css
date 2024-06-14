@@ -47,7 +47,7 @@ header .nav ul .active{
 .navMobileMenu {
     display: none;
     width: 100%;
-    height: 100%;
+    height: 100svh;
     background: #065666;
     position: absolute;
     top: 80px;
