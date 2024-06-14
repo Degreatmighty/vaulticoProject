@@ -217,7 +217,8 @@
 }
 
 @media (orientation: landscape) {
-    #hamburgerOpen {
+    #hamburgerOpen,
+    #hamburgerClose {
         display: none;
     }
 }
