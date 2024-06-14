@@ -1,0 +1,208 @@
+/* === for  desktop devices === */
+
+@media (max-width:1080px){
+    .headerRightButton {
+        display: none;
+    }
+
+    .headerContainer{
+        padding: 30px 50px 30px 50px;
+    }
+    
+    .firmsContents {
+        width: 600px;
+    }
+    
+    .firmsContents h1{
+        font-size: 20px;
+    }
+    
+    .firmImages {
+        padding-top: 30px;
+        gap: 30px;
+    }
+    
+    .firmImages img {
+        width: 170px;
+    }
+    
+    .whyTimeline {
+        gap: 60px;
+    }
+    
+    .whyTimeline_item {
+        width: 200px;
+    }
+    
+    .whyTimeline_item h1{
+        font-size: 18px;
+    }
+
+    .whyTimeline_item p{
+        font-size: 13px;
+    }
+    
+}
+
+/* === for  TABLET devices === */
+
+@media (max-width:768px){
+    .heroContents {
+        width: 600px;
+    }
+    
+    .heroContents h1{
+        font-size: 35px;
+    }
+    
+    .heroContents p{
+        font-size: 18px;
+    }
+
+    .heroImage img {
+        width: 700px;
+    }
+    
+    .firmImages img {
+        width: 140px;
+    }
+
+    .whyTimeline {
+        gap: 50px;
+    }
+    
+    .whyTimeline_item {
+        width: 180px;
+    }
+    
+    .accuracyContents {
+        width: 600px;
+    }
+    
+    .accuracyContents p{
+        font-size: 14px;
+    }
+    
+    .accuracyTimeline {
+        gap: 40px;
+    }
+    
+    .accuracyTimeline > div {
+        width: 220px;
+    }
+    
+    .accuracyTimeline > div > h3 {
+        font-size: 17px;
+    }
+    
+    .accuracyTimeline > div > p {
+        font-size: 13px;
+    }
+    
+    .accuracyImage img {
+        width: 350px;
+        height: 500px;
+    }   
+}
+
+/* === for  MOBILE devices === */
+
+@media (max-width: 740px) {
+    header .nav {
+        display: none;
+    }
+
+    #hamburgerOpen {
+        display: block;
+    }
+
+    .navMobileMenu {
+        display: none;
+    }
+
+    .heroContents {
+        width: 400px;
+    }
+    
+    .heroContents h1{
+        font-size: 33px;
+    }
+    
+    .heroContents p{
+        font-size: 17px;
+    }
+
+    .heroImage img {
+        width: 480px;
+    }
+
+    .firmsContents {
+        width: 460px;
+    }
+    
+    .firmsContents h1{
+        font-size: 20px;
+    }
+    
+    .firmImages {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .firmImages img {
+        width: 150px;
+    }
+
+    .whySection {
+        width: 100%;
+    }
+
+    .whyContents {
+        width: calc(100% - 60px);
+    }
+
+    .whyTimeline {
+        flex-direction: column;
+    }
+
+    .whyTimeline_item {
+        width: calc(100% - 50px);
+    }
+    
+    .accuracyContents {
+        width: 410px;
+    }
+    
+    .accuracyContents p{
+        font-weight: 600;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    
+    .accuracyWrapper {
+        flex-direction: column-reverse;
+    }
+    
+    .accuracyTimeline {
+        gap: 40px;
+    }
+    
+    .accuracyTimeline > div {
+        width: 380px;
+    }
+    
+    .accuracyTimeline > div > h3 {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .accuracyTimeline > div > p {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .accuracyImage img {
+        width: 380px;
+    }
+
+}
