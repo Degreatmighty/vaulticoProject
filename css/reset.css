@@ -12,6 +12,7 @@ body {
     font-weight: 400;
     color: #373737;
     background-color: #fff !important;
+    -webkit-background-color: white !important; 
 }
 
 html {
