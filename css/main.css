@@ -28,14 +28,14 @@ header .nav ul .active{
 }
 
 #hamburgerOpen {
-    font-size: 25px;
+    font-size: 22px;
     display: none;
     cursor: pointer;
     color: #000 !important;
 }
 
 #hamburgerClose {
-    font-size: 25px;
+    font-size: 22px;
     display: none;
     cursor: pointer;
     color: #000 !important;
